@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Inter+Tight:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter Tight", sans-serif;
+  
+  --color-era-navy: #16243F;
+  --color-era-brass: #C0975B;
+  --color-era-sage: #8A9A5B;
+  --color-era-cream: #FDFBF8;
+  --color-era-stone-200: #E5E7EB;
+  --color-era-stone-300: #D1D5DB;
+  --color-era-ink-500: #6B7280;
+  --color-era-ink-700: #374151;
+  --color-era-ink-900: #16243F;
+}
+
+@layer base {
+  body {
+    @apply bg-era-cream text-era-ink-900 font-sans antialiased selection:bg-era-brass/30 selection:text-era-ink-900;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight leading-[1.1] text-era-ink-900;
+  }
+  
+  p {
+    @apply text-era-ink-700 leading-relaxed;
+  }
+}
+
+.glass {
+  @apply bg-white/60 backdrop-blur-xl border border-era-stone-200 rounded-2xl;
+}
+
+.card-base {
+  @apply rounded-3xl border border-era-stone-200 bg-white shadow-sm transition-all duration-300;
+}
+
+.btn-cta {
+  @apply inline-flex items-center justify-center px-8 py-4 rounded-full bg-era-ink-900 text-white font-bold transition-all duration-300 hover:bg-era-navy hover:shadow-lg active:scale-95 cursor-pointer;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-era-cream;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-era-navy/20 hover:bg-era-navy/40 rounded-full;
+}

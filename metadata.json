@@ -1,0 +1,10 @@
+{
+  "name": "Remix: ERA",
+  "description": "A world-class Scandinavian AI-native property platform for intelligent property maintenance and insights.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
