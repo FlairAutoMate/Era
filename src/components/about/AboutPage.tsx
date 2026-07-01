@@ -95,7 +95,7 @@ export default function AboutPage({ onOpenWaitlist }: AboutPageProps) {
             <span className="text-emerald-400 font-mono text-xs tracking-widest uppercase font-bold block">
               PARADIGMESKIFTE
             </span>
-            <h2 className="text-4xl sm:text-6xl font-black font-display tracking-tight leading-tight">
+            <h2 className="text-4xl sm:text-6xl font-black font-display tracking-tight leading-tight text-white">
               Vi mener boligen <br />
               <span className="text-era-brass">fortjener bedre.</span>
             </h2>
@@ -106,26 +106,26 @@ export default function AboutPage({ onOpenWaitlist }: AboutPageProps) {
               <div className="w-12 h-12 rounded-2xl bg-era-brass/20 flex items-center justify-center text-era-brass">
                 <Bot className="w-6 h-6" />
               </div>
-              <p className="text-2xl sm:text-3xl font-bold tracking-tight">Ikke enda en app.</p>
-              <p className="text-xl text-emerald-300 font-semibold">Men en egen agent.</p>
+              <p className="text-2xl sm:text-3xl font-bold tracking-tight text-white">Ikke enda en app.</p>
+              <p className="text-xl text-emerald-400 font-bold">Men en egen agent.</p>
             </div>
 
-            <div className="space-y-6 text-lg sm:text-xl text-white/80 font-light leading-relaxed pt-2">
+            <div className="space-y-6 text-lg sm:text-xl text-white font-normal leading-relaxed pt-2">
               <p className="flex items-start gap-3">
                 <span className="text-era-brass mt-1">✦</span>
-                <span>En agent som kjenner boligen.</span>
+                <span className="text-white">En agent som kjenner boligen.</span>
               </p>
               <p className="flex items-start gap-3">
                 <span className="text-era-brass mt-1">✦</span>
-                <span>Som husker alt.</span>
+                <span className="text-white">Som husker alt.</span>
               </p>
               <p className="flex items-start gap-3">
                 <span className="text-era-brass mt-1">✦</span>
-                <span>Som følger den gjennom hele levetiden.</span>
+                <span className="text-white">Som følger den gjennom hele levetiden.</span>
               </p>
               <p className="flex items-start gap-3">
                 <span className="text-era-brass mt-1">✦</span>
-                <span>Som hjelper eieren med å ta bedre beslutninger før små problemer blir store.</span>
+                <span className="text-white">Som hjelper eieren med å ta bedre beslutninger før små problemer blir store.</span>
               </p>
             </div>
           </div>

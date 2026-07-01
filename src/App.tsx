@@ -84,17 +84,6 @@ export default function App() {
             </motion.div>
           )}
 
-          {view === 'product-ai' && (
-            <motion.div
-              key="product-ai"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.5 }}
-            >
-              <AIAgentPage onOpenWaitlist={() => setIsWaitlistOpen(true)} />
-            </motion.div>
-          )}
         </AnimatePresence>
       </main>
 

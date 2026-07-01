@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ViewType } from '../App';
 import { AnimatePresence, motion } from 'motion/react';
-import { ChevronDown, Home, Wrench, Building2, Info, Sparkles, Play, Users, ShieldCheck } from 'lucide-react';
+import { ChevronDown, Home, Wrench, Building2, Info, Sparkles, Play, Users, ShieldCheck, Camera } from 'lucide-react';
 
 interface NavigationProps {
   currentView: ViewType;

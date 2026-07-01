@@ -126,10 +126,6 @@ export default function BRLPage({ onOpenWaitlist }: BRLPageProps) {
               <Sparkles className="w-10 h-10 text-era-brass" />
             </div>
             <div className="space-y-2">
-              <div className="text-xl font-bold text-era-navy">Varm & tilgjengelig</div>
-              <p className="text-sm text-era-ink-500 leading-relaxed">
-                Ingen komplisert digital tvilling eller tekniske dashboards. Bare en rolig assistent som snakker vanlig norsk med styret og vaktmester.
-              </p>
             </div>
           </div>
         }

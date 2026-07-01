@@ -15,21 +15,21 @@ export default function Hero({ onOpenWaitlist }: HeroProps) {
     <section className="relative min-h-[60vh] flex flex-col lg:flex-row bg-era-cream overflow-hidden pt-10 lg:pt-0">
       {/* Venstre side: Tekst og CTA - 40% */}
       <div className="lg:w-[40%] flex items-center justify-center px-6 py-20 lg:py-0 z-10">
-        <div className="space-y-6 text-left max-w-md">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-era-stone-200 shadow-sm">
+        <div className="space-y-8 text-left max-w-xl">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-era-stone-200 shadow-sm">
             <Sparkles className="w-4 h-4 text-era-green" />
-            <span className="text-xs font-bold tracking-widest text-era-ink-900 uppercase">Din AI-boligagent</span>
+            <span className="text-[10px] font-bold tracking-widest text-era-ink-900 uppercase">Din AI-boligagent</span>
           </div>
 
-          <h1 className="text-5xl lg:text-7xl font-bold font-display tracking-tight text-era-ink-900 leading-[1.05]">
+          <h1 className="text-5xl lg:text-7xl font-black font-display tracking-tight text-era-ink-900 leading-[1.05]">
             Boligen passer <br />ikke på seg selv. <br /><span className="text-era-brass">Jeg gjør det.</span>
           </h1>
           
-          <div className="grid grid-cols-2 gap-y-3 pt-4">
-            <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-era-navy" /> <span className="text-sm">Passer på boligen</span></div>
-            <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-era-navy" /> <span className="text-sm">Husker alt</span></div>
-            <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-era-navy" /> <span className="text-sm">Varsler i tide</span></div>
-            <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-era-navy" /> <span className="text-sm">Øker boligverdien</span></div>
+          <div className="grid grid-cols-2 gap-y-4 pt-2">
+            <div className="flex items-center gap-2"><CheckCircle2 className="w-5 h-5 text-era-navy" /> <span className="text-base font-medium">Passer på boligen</span></div>
+            <div className="flex items-center gap-2"><CheckCircle2 className="w-5 h-5 text-era-navy" /> <span className="text-base font-medium">Husker alt</span></div>
+            <div className="flex items-center gap-2"><CheckCircle2 className="w-5 h-5 text-era-navy" /> <span className="text-base font-medium">Varsler i tide</span></div>
+            <div className="flex items-center gap-2"><CheckCircle2 className="w-5 h-5 text-era-navy" /> <span className="text-base font-medium">Øker boligverdien</span></div>
           </div>
 
           <div className="flex flex-col gap-3 pt-6">
