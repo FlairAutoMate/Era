@@ -35,7 +35,7 @@ export default function BRLPage({ onOpenWaitlist }: BRLPageProps) {
             </div>
 
             <p className="text-lg text-era-ink-700 font-light leading-relaxed max-w-md">
-              Din AI-agent for eiendomsdrift som oppdager behov, varsler styret og sikrer verdien av fellesskapet.
+              Jeg er din AI-agent for eiendomsdrift som oppdager behov, varsler styret og sikrer verdien av fellesskapet.
             </p>
 
             <div className="pt-4">
@@ -119,7 +119,7 @@ export default function BRLPage({ onOpenWaitlist }: BRLPageProps) {
       <NarrativeSection
         subtitle="MØT ERA"
         title="Sameiet har fått sin egen AI-agent."
-        description="Den følger bygningene, oppdager vedlikeholdsbehov, husker historikken og hjelper styret med å ta vare på eiendommens verdi."
+        description="Jeg følger bygningene, oppdager vedlikeholdsbehov, husker historikken og hjelper styret med å ta vare på eiendommens verdi."
         image={
           <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-era-navy/10 w-full max-w-md bg-era-cream p-6 sm:p-10 flex flex-col justify-center items-center text-center space-y-6">
             <div className="w-20 h-20 rounded-2xl bg-era-cream flex items-center justify-center shadow-inner">
@@ -139,7 +139,7 @@ export default function BRLPage({ onOpenWaitlist }: BRLPageProps) {
       <NarrativeSection
         subtitle="EIENDOMMENS HUKOMMELSE"
         title="Eiendommen glemmer aldri."
-        description="ERA bygger eiendommens kollektive hukommelse. Tidligere prosjekter, garantier, FDV-dokumentasjon, utført service og løpende vedlikehold – alt lagres automatisk og følger bygget selv om styret byttes ut."
+        description="Jeg bygger eiendommens kollektive hukommelse. Tidligere prosjekter, garantier, FDV-dokumentasjon, utført service og løpende vedlikehold – alt lagres automatisk og følger bygget selv om styret byttes ut."
         image={
           <img 
             src="/src/assets/images/memory_illustration_1782639123908.jpg" 
@@ -164,7 +164,7 @@ export default function BRLPage({ onOpenWaitlist }: BRLPageProps) {
       <NarrativeSection
         subtitle="KONTINUERLIG ANALYSE"
         title="Eiendommen oppdager behov i tide."
-        description="Vi forklarer ikke avansert AI, vi leverer resultatet. Ta bilder av fellesområder, tak, fasader, ventilasjon og tekniske installasjoner med mobilen. ERA gjenkjenner tilstand og varsler styret før små skader blir til kostbare prosjekter."
+        description="Jeg forklarer ikke avansert AI, jeg leverer resultatet. Ta bilder av fellesområder, tak, fasader, ventilasjon og tekniske installasjoner med mobilen. Jeg gjenkjenner tilstand og varsler styret før små skader blir til kostbare prosjekter."
         image={
           <img 
             src="/src/assets/images/detection_illustration_1782639148464.jpg" 
@@ -267,7 +267,7 @@ export default function BRLPage({ onOpenWaitlist }: BRLPageProps) {
       <NarrativeSection
         subtitle="LEVENDE FDV"
         title="Dokumentasjon som lever videre."
-        description="Når et vedlikeholdsprosjekt er ferdig, oppdaterer ERA automatisk FDV, garantier, før/etter-bilder, produktkoder og fargevalg. Eiendommen blir smartere for hvert eneste prosjekt."
+        description="Når et vedlikeholdsprosjekt er ferdig, oppdaterer jeg automatisk FDV, garantier, før/etter-bilder, produktkoder og fargevalg. Eiendommen blir smartere for hvert eneste prosjekt."
         image={
           <img 
             src="/src/assets/images/update_illustration_1782639186597.jpg" 
@@ -322,10 +322,10 @@ export default function BRLPage({ onOpenWaitlist }: BRLPageProps) {
       <section className="py-24 bg-slate-50 text-center border-t border-slate-100">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 space-y-6">
           <h2 className="text-3xl sm:text-4xl font-light tracking-tight text-slate-900 leading-tight">
-            Eiendommen passer ikke på seg selv. Heldigvis gjør ERA det.
+            Eiendommen passer ikke på seg selv. Heldigvis gjør jeg det.
           </h2>
           <p className="text-lg text-slate-600 font-light leading-relaxed">
-            Fra første inspeksjon til ferdig dokumentert vedlikehold følger ERA eiendommen gjennom hele livsløpet.
+            Fra første inspeksjon til ferdig dokumentert vedlikehold følger jeg eiendommen gjennom hele livsløpet.
           </p>
           <div className="pt-4">
             <button onClick={onOpenWaitlist} className="bg-[#003B46] text-white hover:bg-[#002830] transition-colors rounded-full px-8 py-4 font-medium shadow-sm hover:shadow inline-flex items-center gap-2">

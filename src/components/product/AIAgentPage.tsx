@@ -58,7 +58,7 @@ export default function AIAgentPage({ onOpenWaitlist }: AIAgentPageProps) {
               KI-agenten som <br className="hidden md:block"/>følger opp boligen din
             </h1>
             <p className="text-lg sm:text-xl text-era-ink-500 font-light mb-10 leading-relaxed">
-              ERA analyserer boligdata, tolker bilder og dokumentasjon, oppdager vedlikeholdsbehov og kobler deg direkte med kvalifiserte håndverkere — helt gratis for deg som eier.
+              Jeg analyserer boligdata, tolker bilder og dokumentasjon, oppdager vedlikeholdsbehov og kobler deg direkte med kvalifiserte håndverkere — helt gratis for deg som eier.
             </p>
             <button onClick={onOpenWaitlist} className="btn-cta">
               <span>Prøv ERA Agent</span>
@@ -77,7 +77,7 @@ export default function AIAgentPage({ onOpenWaitlist }: AIAgentPageProps) {
                Et intelligent operativsystem for boligen din
              </h2>
              <p className="text-lg text-era-ink-500 font-light leading-relaxed">
-               I stedet for å være et passivt arkiv eller et statisk dashboard, tilrettelegger ERA for helautomatisk, kontinuerlig boligoppfølging.
+               I stedet for å være et passivt arkiv eller et statisk dashboard, tilrettelegger jeg for helautomatisk, kontinuerlig boligoppfølging.
              </p>
           </div>
 
@@ -90,7 +90,7 @@ export default function AIAgentPage({ onOpenWaitlist }: AIAgentPageProps) {
               <h4 className="text-xs uppercase tracking-widest text-era-ink-900 font-semibold mb-2">LEVENDE DATA</h4>
               <h3 className="text-xl font-medium text-era-ink-900 mb-3 tracking-tight">Levende Boligdata</h3>
               <p className="text-era-ink-500 text-base font-light leading-relaxed">
-                Last opp det du har av FDV-mapper, bilder og vedlikeholdshistorikk. ERA analyserer dokumentene automatisk og samler alt i én levende, oversiktlig boligprofil.
+                Last opp det du har av FDV-mapper, bilder og vedlikeholdshistorikk. Jeg analyserer dokumentene automatisk og samler alt i én levende, oversiktlig boligprofil.
               </p>
             </div>
             {/* Phase 2 */}
@@ -101,7 +101,7 @@ export default function AIAgentPage({ onOpenWaitlist }: AIAgentPageProps) {
               <h4 className="text-xs uppercase tracking-widest text-era-ink-900 font-semibold mb-2">AI-NATIVE</h4>
               <h3 className="text-xl font-medium text-era-ink-900 mb-3 tracking-tight">Autonome Arbeidsflyter</h3>
               <p className="text-era-ink-500 text-base font-light leading-relaxed">
-                ERA følger opp boligen din over tid. Ved å sammenstille boligens alder, materialer og historikk, beregner vi når deler bør sjekkes for å unngå uforutsette skader.
+                Jeg følger opp boligen din over tid. Ved å sammenstille boligens alder, materialer og historikk, beregner jeg når deler bør sjekkes for å unngå uforutsette skader.
               </p>
             </div>
             {/* Phase 3 */}
@@ -112,7 +112,7 @@ export default function AIAgentPage({ onOpenWaitlist }: AIAgentPageProps) {
               <h4 className="text-xs uppercase tracking-widest text-era-ink-900 font-semibold mb-2">UTFØRELSE</h4>
               <h3 className="text-xl font-medium text-era-ink-900 mb-3 tracking-tight">Utførelse & Dokumentasjon</h3>
               <p className="text-era-ink-500 text-base font-light leading-relaxed">
-                Når et tiltak krever fagfolk, presenterer ERA ferdig spesifiserte forslag med godkjente, lokale håndverkere klare til fastpris – bestilt og bekreftet på sekunder.
+                Når et tiltak krever fagfolk, presenterer jeg ferdig spesifiserte forslag med godkjente, lokale håndverkere klare til fastpris – bestilt og bekreftet på sekunder.
               </p>
             </div>
           </div>
@@ -187,7 +187,7 @@ export default function AIAgentPage({ onOpenWaitlist }: AIAgentPageProps) {
                      </div>
                      <span className="text-[10px] font-mono text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded">ANBEFALT</span>
                    </div>
-                   <div className="font-sans text-xs text-slate-300 font-light mb-4">ERA har innhentet fastpristilbud hos autorisert rørlegepartner.</div>
+                   <div className="font-sans text-xs text-slate-300 font-light mb-4">Jeg har innhentet fastpristilbud hos autorisert rørlegepartner.</div>
                    <button onClick={onOpenWaitlist} className="w-full bg-era-ink-900 hover:bg-era-ink-700 text-white py-3 px-4 font-sans font-medium text-xs rounded-full transition-colors flex items-center justify-center gap-2 shadow-sm">
                      <span>Bestill tilstandsrapport</span>
                      <ArrowRight className="w-3.5 h-3.5" />
@@ -203,7 +203,7 @@ export default function AIAgentPage({ onOpenWaitlist }: AIAgentPageProps) {
                 Fra statisk perm til aktiv boligforvaltning
               </h2>
               <p className="text-lg text-era-ink-500 font-light leading-relaxed mb-10">
-                En perm i skapet husker ingenting. ERA gjør dokumentasjon levende ved å forstå boligen din, følge opp vedlikehold og varsle før problemer oppstår.
+                En perm i skapet husker ingenting. Jeg gjør dokumentasjon levende ved å forstå boligen din, følge opp vedlikehold og varsle før problemer oppstår.
               </p>
               
               <div className="space-y-8 mt-10">
@@ -215,7 +215,7 @@ export default function AIAgentPage({ onOpenWaitlist }: AIAgentPageProps) {
                   <div>
                     <h3 className="text-base font-medium text-era-ink-900 mb-1">Intelligent dokumentforståelse</h3>
                     <p className="text-sm text-era-ink-500 font-light leading-relaxed">
-                      Last opp FDV, bilder eller bruksanvisninger — ERA forstår automatisk hva boligen trenger, hvilke komponenter som finnes og hvilke vedlikeholdsrutiner som gjelder.
+                      Last opp FDV, bilder eller bruksanvisninger — Jeg forstår automatisk hva boligen trenger, hvilke komponenter som finnes og hvilke vedlikeholdsrutiner som gjelder.
                     </p>
                   </div>
                 </div>
@@ -228,7 +228,7 @@ export default function AIAgentPage({ onOpenWaitlist }: AIAgentPageProps) {
                   <div>
                     <h3 className="text-base font-medium text-era-ink-900 mb-1">Levende digital boligprofil</h3>
                     <p className="text-sm text-era-ink-500 font-light leading-relaxed">
-                      ERA kombinerer dokumentasjon, alder, materialer, historikk og løpende boligdata for å bygge en kontinuerlig oppdatert forståelse av eiendommen din.
+                      Jeg kombinerer dokumentasjon, alder, materialer, historikk og løpende boligdata for å bygge en kontinuerlig oppdatert forståelse av eiendommen din.
                     </p>
                   </div>
                 </div>
@@ -241,7 +241,7 @@ export default function AIAgentPage({ onOpenWaitlist }: AIAgentPageProps) {
                   <div>
                     <h3 className="text-base font-medium text-era-ink-900 mb-1">Proaktiv oppfølging</h3>
                     <p className="text-sm text-era-ink-500 font-light leading-relaxed">
-                      I stedet for å reagere etter skaden skjer, varsler ERA tidlig om slitasje, servicebehov og kommende tiltak — med forslag til kvalifiserte håndverkere klare i appen.
+                      I stedet for å reagere etter skaden skjer, varsler jeg tidlig om slitasje, servicebehov og kommende tiltak — med forslag til kvalifiserte håndverkere klare i appen.
                     </p>
                   </div>
                 </div>

@@ -22,7 +22,7 @@ export default function Hero({ onOpenWaitlist }: HeroProps) {
           </div>
 
           <h1 className="text-5xl lg:text-7xl font-bold font-display tracking-tight text-era-ink-900 leading-[1.05]">
-            Boligen passer <br />ikke på seg selv. <br /><span className="text-era-brass">ERA gjør det.</span>
+            Boligen passer <br />ikke på seg selv. <br /><span className="text-era-brass">Jeg gjør det.</span>
           </h1>
           
           <div className="grid grid-cols-2 gap-y-3 pt-4">

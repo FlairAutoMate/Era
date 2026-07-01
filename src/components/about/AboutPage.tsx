@@ -181,10 +181,10 @@ export default function AboutPage({ onOpenWaitlist }: AboutPageProps) {
               // OM ERA
             </span>
             <h2 className="text-3xl sm:text-5xl font-black font-display tracking-tight text-era-ink-900">
-              ERA er en AI-basert boligagent som følger boligen din gjennom hele dens levetid.
+              Jeg er en AI-basert boligagent som følger boligen din gjennom hele dens levetid.
             </h2>
             <p className="text-lg sm:text-xl text-era-ink-500 font-light leading-relaxed">
-              Den samler dokumentasjon, analyserer bilder og data, planlegger vedlikehold, varsler når noe bør gjøres og kobler boligeiere med de riktige håndverkerne når tiden er inne.
+              Jeg samler dokumentasjon, analyserer bilder og data, planlegger vedlikehold, varsler når noe bør gjøres og kobler boligeiere med de riktige håndverkerne når tiden er inne.
             </p>
             <p className="text-lg sm:text-xl font-medium text-era-ink-900 pt-2">
               Alt arbeid som utføres blir en del av boligens egen historie.
@@ -241,7 +241,7 @@ export default function AboutPage({ onOpenWaitlist }: AboutPageProps) {
                 <span>KJERNEIDENTITET</span>
               </div>
               <h3 className="text-2xl sm:text-4xl font-black font-display tracking-tight">
-                ERA er ikke enda en markedsplass.
+                Jeg er ikke enda en markedsplass.
               </h3>
               <p className="text-xl sm:text-2xl font-light text-emerald-300">
                 Det er operativsystemet for eiendom.
