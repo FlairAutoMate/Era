@@ -52,7 +52,7 @@ export default function ContractorPage({ onOpenWaitlist }: ContractorPageProps) 
             image={
               <div className="relative w-full aspect-[4/3] bg-era-stone-200 rounded-3xl overflow-hidden shadow-sm border border-era-stone-200">
                 <img src="/src/assets/images/agent_illustration_1782639110972.jpg" alt="Møt ERA" className="w-full h-full object-cover" />
-                <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium text-era-ink-900 shadow-sm border border-white/50 z-20">
+                <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-5 py-2.5 rounded-full text-sm font-medium text-era-ink-900 shadow-lg border border-white/20 z-20">
                   Henter kundedata og historikk.
                 </div>
               </div>
@@ -72,7 +72,7 @@ export default function ContractorPage({ onOpenWaitlist }: ContractorPageProps) 
             image={
               <div className="relative w-full aspect-[4/3] bg-era-stone-200 rounded-3xl overflow-hidden shadow-sm border border-era-stone-200">
                 <img src="/src/assets/images/detection_illustration_1782639148464.jpg" alt="Kartlegging" className="w-full h-full object-cover" />
-                <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium text-era-ink-900 shadow-sm border border-white/50 z-20">
+                <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-5 py-2.5 rounded-full text-sm font-medium text-era-ink-900 shadow-lg border border-white/20 z-20">
                   Identifiserer vedlikeholdsbehov.
                 </div>
               </div>
@@ -91,7 +91,7 @@ export default function ContractorPage({ onOpenWaitlist }: ContractorPageProps) 
             image={
               <div className="relative w-full aspect-[4/3] bg-era-stone-200 rounded-3xl overflow-hidden shadow-sm border border-era-stone-200">
                 <img src="/src/assets/images/capture_illustration_1782639136532.jpg" alt="Tilbud" className="w-full h-full object-cover" />
-                <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium text-era-ink-900 shadow-sm border border-white/50 z-20">
+                <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-5 py-2.5 rounded-full text-sm font-medium text-era-ink-900 shadow-lg border border-white/20 z-20">
                   Kalkulerer og utformer tilbud.
                 </div>
               </div>
@@ -111,7 +111,7 @@ export default function ContractorPage({ onOpenWaitlist }: ContractorPageProps) 
             image={
               <div className="relative w-full aspect-[4/3] bg-era-stone-200 rounded-3xl overflow-hidden shadow-sm border border-era-stone-200">
                 <img src="/src/assets/images/handling_illustration_1782639161743.jpg" alt="Gjennomføring" className="w-full h-full object-cover" />
-                <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium text-era-ink-900 shadow-sm border border-white/50 z-20">
+                <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-5 py-2.5 rounded-full text-sm font-medium text-era-ink-900 shadow-lg border border-white/20 z-20">
                   Oppdaterer kunde og fremdrift.
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function ContractorPage({ onOpenWaitlist }: ContractorPageProps) 
             image={
               <div className="relative w-full aspect-[4/3] bg-era-stone-200 rounded-3xl overflow-hidden shadow-sm border border-era-stone-200">
                 <img src="/src/assets/images/payment_illustration_1782639174186.jpg" alt="Dokumentasjon" className="w-full h-full object-cover" />
-                <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium text-era-ink-900 shadow-sm border border-white/50 z-20">
+                <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-5 py-2.5 rounded-full text-sm font-medium text-era-ink-900 shadow-lg border border-white/20 z-20">
                   Lagrer garantier og FDV.
                 </div>
               </div>
@@ -150,7 +150,7 @@ export default function ContractorPage({ onOpenWaitlist }: ContractorPageProps) 
             image={
               <div className="relative w-full aspect-[4/3] bg-era-stone-200 rounded-3xl overflow-hidden shadow-sm border border-era-stone-200">
                 <img src="/src/assets/images/memory_illustration_1782639123908.jpg" alt="Livslang oppfølging" className="w-full h-full object-cover" />
-                <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium text-era-ink-900 shadow-sm border border-white/50 z-20">
+                <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-5 py-2.5 rounded-full text-sm font-medium text-era-ink-900 shadow-lg border border-white/20 z-20">
                   Varsler om vedlikehold.
                 </div>
               </div>
@@ -169,7 +169,7 @@ export default function ContractorPage({ onOpenWaitlist }: ContractorPageProps) 
             image={
               <div className="relative w-full aspect-[4/3] bg-era-stone-200 rounded-3xl overflow-hidden shadow-sm border border-era-stone-200">
                 <img src="/src/assets/images/lifecycle_illustration_1782639212300.jpg" alt="Vekst" className="w-full h-full object-cover" />
-                <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium text-era-ink-900 shadow-sm border border-white/50 z-20">
+                <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-5 py-2.5 rounded-full text-sm font-medium text-era-ink-900 shadow-lg border border-white/20 z-20">
                   Analyserer lønnsomhet.
                 </div>
               </div>

@@ -19,11 +19,11 @@ export default function NarrativeSection({ title, subtitle, description, image, 
               {subtitle}
             </span>
           )}
-          <h2 className="text-3xl sm:text-5xl font-light tracking-tight text-era-ink-900 leading-tight">
+          <h2 className="text-3xl sm:text-5xl font-light tracking-tight text-era-ink-900 leading-[1.1] text-pretty">
             {title}
           </h2>
           {description && (
-            <p className="text-lg text-era-ink-500 font-light leading-relaxed">
+            <p className="text-lg md:text-xl text-era-ink-700 font-light leading-relaxed text-pretty">
               {description}
             </p>
           )}
